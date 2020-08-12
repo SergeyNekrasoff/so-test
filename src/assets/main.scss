@@ -1,0 +1,26 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+ul, ol, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+input, textarea, button, a {
+    border: 0;
+    outline: none;
+}
+  
+body {
+    background: rgba(255, 255, 255, .9);
+    font-family: Foros, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #f3f3f3;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
